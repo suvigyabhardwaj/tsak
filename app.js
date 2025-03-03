@@ -5,7 +5,7 @@ const bodyParser=require("body-parser");
 const app=express();
 
 // connection to mongodb
-mongoose.connect('mongodb+srv://admin:apocalypse712@cluster0.2dfke.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.2dfke.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
 })
